@@ -55,13 +55,15 @@
                         <label for="username">
                             Brukernavn:
                         </label>
-                        <input class="inputtext" type="text" id="username" name="username" placeholder="Brukernavn">
+                        <input class="inputtext" type="text" id="username" name="username" placeholder="Brukernavn" readonly 
+                        onfocus="this.removeAttribute('readonly');">
                     </div>
                     <div class="input-wrapper">
                         <label for="password">
                             Passord:
                         </label>
-                        <input class="inputtext" type="password" id="password" name="password" placeholder="Passord">
+                        <input class="inputtext" type="password" id="password" name="password" placeholder="Passord" readonly 
+                        onfocus="this.removeAttribute('readonly');">
                     </div>
     
                     <input type="hidden" name="AuthState" value="">
